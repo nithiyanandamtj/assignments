@@ -20,15 +20,10 @@ while i<len(result):
 ##printed in the the reverse order with a space between first name and last name.
 
             
-def reverse(string):
-    string = string[::-1]
-    return string
-   
-
 fname=input('Enter First Name:')
 lname=input('Enter last Name:')
 
-print("{} {}".format(reverse(fname),reverse(lname)))
+print("{} {}".format(fname[::-1],lname[::-1]))
 
 ##Write a Python program to find the volume of a sphere with diameter 12 cm.
 ##Formula: V=4/3 * π * r^3
